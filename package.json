@@ -1,0 +1,38 @@
+{
+  "name": "transforms",
+  "version": "0.1.0",
+  "description": "a simple browserify transformer from appstackr for css, scss, less, styl and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benpptung/transforms.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "less",
+    "styl",
+    "react",
+    "browserify-transform"
+  ],
+  "author": "Ben P.P. Tung",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer-core": "^5.2.0",
+    "babelify": "^6.3.0",
+    "colors": "^1.1.2",
+    "debug": "^2.2.0",
+    "less": "^2.5.3",
+    "node-sass": "^3.3.3",
+    "postcss": "^4.1.11",
+    "stylus": "^0.52.4",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3"
+  }
+}
