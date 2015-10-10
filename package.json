@@ -1,6 +1,6 @@
 {
   "name": "transforms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a simple browserify transformer from appstackr for css, scss, less, styl and react",
   "main": "index.js",
   "scripts": {
