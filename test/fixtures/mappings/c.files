@@ -1,0 +1,7 @@
+{
+  "type" : "files-mapping",
+  "list" : {
+    "../images/c.png" : "c/c.png",
+    "./img/c.png" : "c/c2.png"
+  }
+}

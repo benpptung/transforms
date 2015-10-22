@@ -4,7 +4,7 @@
   "description": "a simple browserify transformer from appstackr for css, scss, less, styl and react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,14 @@
   "author": "Ben P.P. Tung",
   "license": "MIT",
   "dependencies": {
+    "async": "^1.4.2",
     "autoprefixer-core": "^5.2.0",
     "babelify": "^6.3.0",
     "colors": "^1.1.2",
     "debug": "^2.2.0",
+    "glob": "^5.0.15",
     "less": "^2.5.3",
+    "mkdirp": "^0.5.1",
     "node-sass": "^3.3.3",
     "postcss": "^4.1.11",
     "stylus": "^0.52.4",
