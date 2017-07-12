@@ -1,2 +1,29 @@
-No documentation. 
-A personal browserify transformer to wrap babelify and css together.
+# transforms
+ 
+An All-in-one personal browserify transformer for `js`, `css`, `scss`, `less`, 'styl`....
+
+So, we can:
+
+### bundle, transpile javascript
+
+use baelify internally
+
+### Compile scss,less,styl and transform to css
+
+so we can write something like this
+
+```
+const css = require('./site.scss');
+```
+
+and use [inject-css](https://www.npmjs.com/package/inject-css) to insert the css
+
+```
+const inject = require('inject-css');
+const delcss = inject(css);
+```
+
+and delete the css if we want to change theme or something like that
+```
+delcss();
+```
