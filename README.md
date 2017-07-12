@@ -6,7 +6,7 @@ So, we can:
 
 ### transpile javascript
 
-use baelify internally. 
+use `babelify` internally. 
 
 ### Compile scss,less,styl and transform to css
 
