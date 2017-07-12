@@ -4,9 +4,9 @@ An All-in-one personal browserify transformer for `js`, `css`, `scss`, `less`, '
 
 So, we can:
 
-### bundle, transpile javascript
+### transpile javascript
 
-use baelify internally
+use baelify internally. 
 
 ### Compile scss,less,styl and transform to css
 
