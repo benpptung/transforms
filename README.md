@@ -4,11 +4,11 @@ An All-in-one personal browserify transformer for `js`, `css`, `scss`, `less`, '
 
 So, we can:
 
-### bundle, transpile javascript
+##### bundle, transpile javascript
 
 use baelify internally
 
-### Compile scss,less,styl and transform to css
+##### Compile scss,less,styl and transform to css
 
 so we can write something like this
 
@@ -26,4 +26,21 @@ const delcss = inject(css);
 and delete the css if we want to change theme or something like that
 ```
 delcss();
+```
+
+
+## Usage
+
+Under the project directory,
+
+> npm install transforms -S
+
+In the package.json, add the following:
+
+```
+"browserify": {
+    "transform": [
+      "transforms",
+    ]
+  },
 ```
