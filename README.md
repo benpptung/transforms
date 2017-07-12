@@ -1,6 +1,6 @@
 # transforms
  
-An All-in-one personal browserify transformer for `js`, `css`, `scss`, `less`, 'styl`....
+An All-in-one personal browserify transformer for `js`, `css`, `scss`, `less`, `styl`....
 
 So, we can:
 
