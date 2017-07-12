@@ -8,7 +8,7 @@ So, we can:
 
 use `babelify` internally. 
 
-### Compile scss,less,styl and transform to css
+### compile scss,less,styl and transform to css
 
 so we can write something like this
 
