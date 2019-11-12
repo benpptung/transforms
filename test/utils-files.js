@@ -60,7 +60,7 @@ describe('utils-files', function() {
 
       expect(mappings).to.have.length(3);
       for(var i = 0, len = mappings.length; i < len; ++i) {
-        filename = basename(mappings.from);
+        filename = basename(mappings[i].from);
         switch (filename) {
           case 'a.files':
             expect(mappings[i]['list']).to.eql({
